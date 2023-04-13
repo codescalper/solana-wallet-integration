@@ -11,11 +11,12 @@ const Home: NextPage = (props) => {
   return (
     <div className={styles.App}>
       <Head>
-        <title>Wallet-Adapter Example</title>
+        <title>Wallet-Adapter</title>
         <meta
           name="description"
-          content="Wallet-Adapter Example"
+          content="Wallet-Adapter"
         />
+         <link rel="icon" href="/sol.ico" />
       </Head>
       <WalletContextProvider>
         <AppBar />

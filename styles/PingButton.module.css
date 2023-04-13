@@ -11,4 +11,16 @@
     font-size: 16px;
     border: 0;
     font-family: "Roboto", sans-serif;
+    background-color: #FFCDAA;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 200%;
+  }
+
+  .button:hover{
+    background-color: #EE8980;
+    width: 300%;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+    color: white;
   }
